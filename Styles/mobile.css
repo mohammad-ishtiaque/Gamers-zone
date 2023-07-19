@@ -1,0 +1,85 @@
+@media screen and (max-width:576px) {
+    nav, .cards, .plying-game-content, .career, .game-type, .catagories ul, .policies ul {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-secondary {
+        width: 260px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-pic img {
+        width: 300px;
+    }
+
+    .banner-details {
+        margin-top: 15px;
+        padding: 60px 25px;
+        /* padding:calc(100% - 200px); */
+    }
+
+    .gamer-section {
+        background: none;
+        flex-direction: column;
+    }
+
+    .gamer-details {
+        margin-top: 40px;
+        text-align: center;
+        width: 400px;
+    }
+    .gamer-pic img{
+        width: 400px;
+    }
+    .game-video-txt-content{
+        width: 400px;
+    }
+    .playing-game-details{
+        width: 300px;
+        text-align: center;
+    }
+    .playing-game-pic{
+        width: 400px;
+    }
+    .back-img{
+        width: 80%;
+        padding: 0 0 0 50px;
+    }
+    .badge-img{
+        position: relative;
+        bottom: 140px;
+        right: 10px;
+    }
+    .career{
+        padding: 0 20px;
+    }
+    .career-content {
+        width: 400px;
+    }
+    .career-pic{
+        width: 400px;
+    }
+    .career-pic img {
+        width: 100%;
+    }
+    .game-type{
+        padding: 0;
+    }
+
+    .social-media{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 50px;
+        gap: 20px;
+    }
+}

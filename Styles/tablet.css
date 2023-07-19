@@ -1,0 +1,77 @@
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header-container {
+        padding: 10px;
+    }
+
+    nav , .gamer-section, .career, .plying-game-content{
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-pic img {
+        width: 500px;
+    }
+
+    .banner-details {
+        margin-top: 15px;
+    }
+
+    .gamer-section {
+        background: none;
+    }
+
+    .gamer-details {
+        margin-top: 40px;
+        text-align: center;
+        width: 400px;
+    }
+    .gamer-pic img{
+        width: 100%;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 100px;
+    }
+    .playing-game-details{
+        width: 300px;
+        text-align: center;
+    }
+    .playing-game-pic{
+        width: 600px;
+    }
+    .back-img{
+        width: 80%;
+        padding: 0 0 0 50px;
+    }
+    .badge-img img{
+        width: 250px;
+    }
+    .badge-img{
+        position: relative;
+        bottom: 140px;
+        right: 10px;
+    }.career{
+        margin-top: 80px;
+    }
+    .career-content {
+        width: 600px;
+    }
+    .career-pic{
+        width: 600px;
+    }
+    .career-pic img {
+        width: 100%;
+    }
+}
