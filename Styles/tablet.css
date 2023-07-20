@@ -74,4 +74,8 @@
     .career-pic img {
         width: 100%;
     }
+    .catagories ul li, .policies ul li{
+        margin: 0;
+        padding: 10px;
+    }
 }

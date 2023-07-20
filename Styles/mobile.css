@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    nav, .cards, .plying-game-content, .career, .game-type, .catagories ul, .policies ul {
+    nav, .cards, .plying-game-content, .career, .game-type {
         flex-direction: column;
     }
 
@@ -80,12 +80,31 @@
         padding: 0;
     }
 
-    .social-media{
+    .catagories ul, .policies ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .catagories ul li, .policies ul li{
         margin: 0;
+        padding: 10px;
+    }
+
+    /* .policies ul li{
+        
+    } */
+
+    .social-media{
         text-align: center;
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
         padding: 0 50px;
+        gap: 20px; */
+        display: grid;
+        grid-template-columns: repeat(4, 1fr );
+        margin-left:50px ;
         gap: 20px;
+    }
+    .social-media img{
+        margin: 0;
     }
 }

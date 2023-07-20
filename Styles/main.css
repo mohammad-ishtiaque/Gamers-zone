@@ -489,7 +489,7 @@ ul li {
 }
 
 .catagories {
-    padding: 40px 0;
+    /* padding: 40px 0; */
     font-size: 18px;
     font-weight: 600;
 }
@@ -498,7 +498,7 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .catagories ul li, .policies ul li {
