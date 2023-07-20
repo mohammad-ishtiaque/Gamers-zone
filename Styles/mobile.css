@@ -60,10 +60,15 @@
         right: 10px;
     }
     .career{
-        padding: 0 20px;
+
+        padding: 30px 20px;
     }
     .career-content {
         width: 400px;
+    }
+
+    .heros-positions{
+        font-weight: 500;
     }
     .career-pic{
         width: 400px;
@@ -76,6 +81,7 @@
     }
 
     .social-media{
+        margin: 0;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
